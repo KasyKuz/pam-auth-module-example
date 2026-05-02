@@ -26,6 +26,6 @@ account sufficient usr/lib/security/mypam.so
 Далее необходимо скомпилировать и запустить тестовое приложение:
 ```bash
 gcc -o testapp testapp.c -lpam -lpam_misc
-gcc -o testapp testapp.c -lpam -lpam_misc
+./testapp
 ```
 
